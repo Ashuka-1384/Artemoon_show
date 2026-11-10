@@ -1,0 +1,20 @@
+/* ───────── Design tokens — برگرفته از رنگ‌های لوگو (ماهِ خاکستری + جوانهٔ سبز) ───────── */
+:root {
+  /* کاغذ (سفیدِ ماه) */
+  --paper: #F7F6F3; --paper-2: #EFEDE9; --paper-3: #E4E1DC;
+  /* ماه */
+  --moon-300: #B9B5B6; --moon-500: #979394; --moon-600: #6f6d6f; --moon-800: #333235; --ink: #17161a;
+  /* جوانه */
+  --sprout-300: #8FA873; --sprout: #5C7B3E; --sprout-700: #3B5224; --sprout-900: #232f15; --sprout-tint: #E3E9D8;
+
+  --rule: rgba(23, 22, 26, .16); --rule-strong: rgba(23, 22, 26, .85);
+  --text: var(--ink); --muted: var(--moon-600);
+
+  --f-body: 'Vazirmatn', system-ui, sans-serif;
+  --f-display: 'Fraunces', 'Vazirmatn', serif;          /* لاتین: Fraunces ، فارسی: Vazirmatn */
+  --f-naskh: 'Noto Naskh Arabic', 'Vazirmatn', serif;
+  --f-mono: 'IBM Plex Mono', 'Vazirmatn', monospace;
+
+  --w: 1240px; --gutter: clamp(18px, 4vw, 40px);
+  --ease: cubic-bezier(.2, .7, .2, 1);
+}
